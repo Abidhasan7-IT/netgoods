@@ -1,0 +1,149 @@
+*{
+    font-family: 'roboto', sans-serif;
+
+}
+
+/* This css for only home page netgood Ecommerce */
+
+.custom-navbar{
+    background-color:#ececec !important;
+}
+.navber-modify ul li{
+    font-size: 12px;
+    padding: 0 18px;
+}
+.navbar-brand{
+    margin-left: 2%;
+}
+.nav-link{
+    font-family: 'cursive';
+    font-size: 18px !important;
+    transition: all 0.6s;
+}
+.nav-link:hover{
+    color: #fa6109 !important;
+}
+.navber-modify{
+    margin-right: 16px;
+}
+
+.search-bar{
+    background-color: rgb(255, 249, 240);
+    padding: 11px 15px;
+    border: none;
+    outline: none;
+    width: 50%;
+    margin-left: 18px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.search-btn{
+    outline: none;
+    border: none;
+    background-color: #fa6109;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 11px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.search-btn:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 172, 0.767);
+}
+.banner {
+    margin: auto;
+    display: block;
+    width:15rem;
+    padding: 6px;
+}
+.feahover{
+    text-align: center;
+}
+.top-banner{
+    margin-bottom: 1%;
+}
+.feauter-container{
+    padding: 2px;
+    width: 37px;
+    transition: all 0.6s;
+}
+.feauter-container:hover{
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px #616161;
+}
+
+.sell-img{
+    height: 150px;
+}
+.p-details{
+    margin-top:18px;
+    color: #616161;
+    font-weight: 700;
+    text-align: left;
+}
+.card-price{
+    margin-top: 20px;
+    color: green;
+    font-weight:600;
+}
+.discount{
+    color: blue;
+}
+.discount> strike{
+    color: red;
+}
+.product-sale{
+    background-color: #ffff;
+    height:140vh;
+}
+
+.card-body{
+    padding: 0 1%;
+    width: 190px;
+    margin-bottom: 28px;
+}
+
+.card-body:hover{
+    box-shadow: 0px 0px 10px #ccc;
+}
+.load_btn{
+   text-align: center;
+}
+.load_btn> .load{
+    color: #fff;
+    background: #fa6109;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    width: 115px;
+    padding: 8px 12px;
+    transition: all 0.6s;
+    margin: 18px 0;
+}
+.load_btn:hover{
+    opacity: 0.8;
+}
+
+/* buy button */
+.btn-add{
+    text-align: center;
+    margin: 5% 0;
+  }
+  .add{
+    padding: 5px 20px;
+    font-family: cursive;
+    font-size: 15px;
+    background: limegreen;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.6s;
+  }
+  .add:hover{
+    background: red;
+    font-weight: 500;
+  }
